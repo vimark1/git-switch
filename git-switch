@@ -4,6 +4,8 @@
 # switchall = "!git co $(git branch -r | awk '{ print $1 }' | sed -e 's/origin\\///g' | fzf)"
 # recent = "for-each-ref --count=15 --sort=-committerdate refs/heads/ --format='%(refname:short)'"
 
+command -v fzf >/dev/null 2>&1 || { echo >&2 "I require fzf but it's not installed.  Aborting."; exit 1; }
+
 function get_recent_branches() {
   git for-each-ref --count=15 --sort=-committerdate refs/heads/ --format='%(refname:short)'
 }
