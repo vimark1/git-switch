@@ -8,7 +8,10 @@ branchs, rather than all your 100+ branches.
 
 ## Install
 
-You need to have `fzf` command line tool installed.
+Following runtime dependencies need to be also installed:
+
+* [fzf](https://github.com/junegunn/fzf)
+
 
 You can simply download the scripts in anyway you like and make sure to put the
 program into your `$PATH`
