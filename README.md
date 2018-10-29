@@ -23,3 +23,7 @@ Following runtime dependencies need to be also installed:
 $ git switch
 ```
 
+## Tested on
+
+-Mac OS Mojave (10.14)
+
