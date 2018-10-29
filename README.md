@@ -24,6 +24,4 @@ $ git switch
 ```
 
 ## Tested on
-
--Mac OS Mojave (10.14)
-
+- Mac OS Mojave (10.14) with fsf 0.17.5
