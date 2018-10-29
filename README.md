@@ -2,16 +2,15 @@
 
 Switch between your most used branches
 
-`git switch` is a simple git utility to let you swicth branches in a project.
-The nice thing about it, is that it let's you pick from a list of recently used
-branchs, rather than all your 100+ branches.
+`git switch` is a simple, easy-to-use git utility that allows you to quickly switch between your most used branches. Rather than having to trawl through a full list of all the branches in your repo, `git switch` lets you pick from a shortlist of your most commonly used branches, making managing your branches much easier and speeding up your workflow.
 
 ## Install
 
-You can simply download the scripts in anyway you like and make sure to put the
-program into your `$PATH`
+To install `git switch`, simply download the scripts in this repo and include the program in `$PATH`.
 
-Following runtime dependencies need to be also installed:
+### Dependencies
+
+You'll need to install the following dependencies to get `git switch` up and running:
 
 * [fzf](https://github.com/junegunn/fzf)
 
@@ -19,7 +18,7 @@ Following runtime dependencies need to be also installed:
 
 ```bash
 
-# On any git repository
+# In any git repository
 $ git switch
 ```
 
