@@ -23,3 +23,5 @@ Following runtime dependencies need to be also installed:
 $ git switch
 ```
 
+## Tested on
+- Mac OS Mojave (10.14) with fsf 0.17.5
